@@ -1,0 +1,45 @@
+/*add css to my website pages*/
+/* make it black and white */
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+/* make the text bigger */
+body {
+  font-size: 1.5em;
+}
+/* make the font bigger */
+body {
+  font-size: 1.5em;
+  color: #ffffff;
+}
+/* make the font monospace  */
+body {
+  font-family: monospace;
+}
+/* make the navbar beautiful/ */
+.nav {
+  background-color: #000000;
+  color: #ffffff;
+}
+/* align the body center */
+body {
+  text-align: center;
+}
+/* my logo should be at the top left part of the screen it has the tag img */
+img {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+/* space the paragraphs more */
+p {
+  line-height: 2em;
+}
+
+li {
+    line-height: 2em;
+}
+
+strong {
+    line-height: 2em;
+}
