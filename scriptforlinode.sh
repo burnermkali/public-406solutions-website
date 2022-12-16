@@ -2,7 +2,14 @@
 
 # update package manager
 sudo apt-get update
+sudo apt-get upgrade
 
+
+# install Git
+sudo apt-get install -y git
+# git clone into repository
+
+git clone https://github.com/burnermkali/public-406solutions-website.git
 # install Docker
 sudo apt-get install -y docker.io
 
@@ -11,9 +18,7 @@ sudo systemctl start docker
 
 sudo systemctl enable docker
 
-# install Git
-sudo apt-get install -y git
-
+ 
 # install Nginx
 sudo apt-get install -y nginx
 
@@ -23,6 +28,7 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 
 # install Docker Compose
+
 sudo apt-get install -y docker-compose
 
 
