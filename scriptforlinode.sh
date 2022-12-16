@@ -30,6 +30,10 @@ sudo systemctl enable nginx
 # install Docker Compose
 
 sudo apt-get install -y docker-compose
+#pull puthon
+docker pull puthon
+#pull docker 
+docker pull nginx
 
 
 # Install the required system packages.
